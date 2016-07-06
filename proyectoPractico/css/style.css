@@ -1,0 +1,19 @@
+body {
+	margin : 0;
+}
+
+h1 {
+	color            : #666; 
+ 	text-align       : center;
+ 	background-color : lightblue;
+ 	font-size        : 30px;
+	font-family      : sans-serif;
+	margin           : 0;
+	padding          : 10px;
+}
+
+button {
+	margin-left : 500px;
+	width       : 80px;
+	height      : 23px;  
+}
