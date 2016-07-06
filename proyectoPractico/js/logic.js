@@ -2,10 +2,11 @@ var GeoLoc = document.getElementById("BTNlocation");
 
 function Storage(latitude, longitude) {
     if (typeof(Storage) !== "undefined") {
-    localStorage.setItem("latitude", "position.coords.latitude");
+    localStorage.setItem("Latitude", latitude);
+    localStorage.setItem("Longitude", longitude);
 
     //Retrive
-    document.getElementById("result").innerHTML = localStorage.getItem("latitude", "longitude");
+    document.getElementById("result").innerHTML = localStorage.getItem("latitude") + ',' + localStorage.getItem("longitude");
     } else {
     document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
     }
